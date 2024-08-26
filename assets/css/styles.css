@@ -1,0 +1,27 @@
+.row > * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card-body {
+    padding: 0 !important;
+  }
+  .offcanvas {
+    width: 200px !important ;
+  }
+  .btn-close:focus {
+    box-shadow: none !important;
+  }
+  .burger-icon:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .card{
+      border: 1px solid #dcdde02b;;
+  }
+  .card-header{
+      background-color: transparent;
+      border-bottom: 1px solid #dcdde02b;
+  }
+ 
+  

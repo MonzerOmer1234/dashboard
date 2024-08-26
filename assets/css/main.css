@@ -3619,17 +3619,17 @@ h6,
 /* =========== Sidebar css =========== */
 .sidebar-nav-wrapper {
   background: #fff;
-  width: 250px;
+  
   padding: 20px 0px;
   height: 100vh;
-  position: fixed;
+  /* position: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 999; */
   box-shadow: 0px 0px 30px 0px rgba(200, 208, 216, 0.3);
-  -webkit-transition: all 0.3s ease-out 0s;
+  /* -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -3638,24 +3638,24 @@ h6,
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
-  transform: translateX(0);
+  transform: translateX(0); */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .sidebar-nav-wrapper {
+  /* .sidebar-nav-wrapper {
     -webkit-transform: translateX(-260px);
     -moz-transform: translateX(-260px);
     -ms-transform: translateX(-260px);
     -o-transform: translateX(-260px);
     transform: translateX(-260px);
-  }
+  } */
 }
-.sidebar-nav-wrapper.active {
+/* .sidebar-nav-wrapper.active {
   -webkit-transform: translateX(-260px);
   -moz-transform: translateX(-260px);
   -ms-transform: translateX(-260px);
   -o-transform: translateX(-260px);
   transform: translateX(-260px);
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .sidebar-nav-wrapper.active {
     -webkit-transform: translateX(0px);
@@ -3666,7 +3666,7 @@ h6,
   }
 }
 .sidebar-nav-wrapper .navbar-logo {
-  padding: 0 25px;
+  padding: 0 20px;
   margin-bottom: 30px;
   margin-top: 11px;
 }
